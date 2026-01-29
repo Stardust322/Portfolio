@@ -41,14 +41,22 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
+          {/* 1번에서 추가한 link 속성을 여기서 사용합니다 */}
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
+            <a
+              href={social.link}
+              target="_blank"
+              rel="noreferrer"
               key={social.name}
-              width={24}
-              height={24}
-            />
+              className="cursor-pointer z-[50]" // 클릭 잘 되도록 z-index 추가
+            >
+              <Image
+                src={social.src}
+                alt={social.name}
+                width={24}
+                height={24}
+              />
+            </a>
           ))}
         </div>
       </div>

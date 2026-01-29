@@ -67,14 +67,12 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/5296765_camera_instagram_instagram logo_icon.png",
+      link: "https://www.instagram.com/i_dealize21"
     },
     {
       name: "Github",
       src: "/gitwhite.png",
-    },
-    {
-      name: "Discord",
-      src: "/discord.svg",
+      link: "https://github.com/Stardust322"
     },
   ];
   
