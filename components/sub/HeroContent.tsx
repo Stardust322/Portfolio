@@ -46,15 +46,20 @@ const HeroContent = () => {
         >
           창의적이고 효율적인 개발부터, 완벽한 보안까지.
           <br/> 
-          AI / 정보보안 연구자, 이상화입니다.
+          AI/정보보안 연구자, 
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}이상화{" "}</span>
+          입니다.
         </motion.p>
 
         {/* 버튼 */}
         <motion.a
           variants={slideInFromLeft(1)}
+          href="#career"
           className="button-primary text-center text-white cursor-pointer max-w-[200px]"
         >
-          Learn More!
+              Learn More!
+
         </motion.a>
       </div>
 
