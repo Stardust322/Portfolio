@@ -20,7 +20,7 @@ const Career = () => {
         My Journey
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-6xl px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-6xl px-4 md:px-10">
         {/* 1. Education */}
         <motion.div
           initial="hidden"
@@ -34,7 +34,7 @@ const Career = () => {
           </h2>
           {educationData.map((item, index) => (
             <div key={index} className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
-              <span className="px-2 py-1 rounded bg-purple-900/30 text-purple-300 border border-purple-500/30 text-xs font-medium min-w-fit">
+              <span className="w-fit px-2 py-1 rounded bg-purple-900/30 text-purple-300 border border-purple-500/30 text-xs font-medium">
                 {item.date}
               </span>
               <span className="text-gray-300 text-sm md:text-base">{item.content}</span>
@@ -55,7 +55,7 @@ const Career = () => {
           </h2>
           {certificateData.map((item, index) => (
             <div key={index} className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
-              <span className="px-2 py-1 rounded bg-purple-900/30 text-purple-300 border border-purple-500/30 text-xs font-medium min-w-fit">
+              <span className="w-fit px-2 py-1 rounded bg-purple-900/30 text-purple-300 border border-purple-500/30 text-xs font-medium">
                 {item.date}
               </span>
               <span className="text-gray-300 text-sm md:text-base">{item.content}</span>
