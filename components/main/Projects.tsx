@@ -31,7 +31,7 @@ const Projects = () => {
         <ThreeDCard
           src="/LMS1.png"
           title="Soongsil Univ, LMS"
-          description="request를 사용하여, SAP 기반 LMS 사이트를 로그인 및 과제 정보를 가져오는 프로그램."
+          description="request를 사용하여, SAP 기반 LMS 사이트 로그인 및 과제 정보를 가져오는 프로그램."
           links="https://github.com/Stardust322/SSU_LMS"
         />
 

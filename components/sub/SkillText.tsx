@@ -10,6 +10,7 @@ const SkillText = () => {
 <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          viewport={{ once: false, amount: 0.3 }}
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
@@ -19,12 +20,14 @@ const SkillText = () => {
         <motion.div
         variants={slideInFromLeft(0.5)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
+        viewport={{ once: false, amount: 0.3 }}
         >
             Making Services with Modern Technologies
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
         className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
+        viewport={{ once: false, amount: 0.3 }}
         >
             Never miss a task, deadline or idea
         </motion.div>

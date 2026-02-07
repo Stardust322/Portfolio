@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
+        <div className="mb-[20px] text-[15px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 text-center">
           &copy; Stardust 2026. All rights reserved
         </div>
       </div>

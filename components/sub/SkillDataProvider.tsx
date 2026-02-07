@@ -14,7 +14,7 @@ interface Props {
 
 const SkillDataProvider = ({ src, width, height, index} : Props) => {
     const {ref, inView} = useInView({
-        triggerOnce: true
+        triggerOnce: false
     })
 
     const imageVariants = {
@@ -28,6 +28,7 @@ const SkillDataProvider = ({ src, width, height, index} : Props) => {
   ref={ref}
   initial="hidden"
   variants={imageVariants}
+  viewport={{ once: false, amount: 0.3 }}
   animate={inView ? "visible" : "hidden"}
   custom={index}
   transition={{delay: index * animationDelay}}
