@@ -25,7 +25,7 @@ const Career = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           variants={slideUp}
           className="flex flex-col gap-4 p-6 rounded-2xl border border-[#2A0E61] bg-[#0300145e] backdrop-blur-md"
         >
@@ -46,7 +46,7 @@ const Career = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           variants={slideUp}
           className="flex flex-col gap-4 p-6 rounded-2xl border border-[#2A0E61] bg-[#0300145e] backdrop-blur-md"
         >
@@ -67,7 +67,7 @@ const Career = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           variants={slideUp}
           className="flex flex-col gap-4 p-6 rounded-2xl border border-[#2A0E61] bg-[#0300145e] backdrop-blur-md"
         >
@@ -92,7 +92,7 @@ const Career = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           variants={slideUp}
           className="flex flex-col gap-4 p-6 rounded-2xl border border-[#2A0E61] bg-[#0300145e] backdrop-blur-md"
         >
